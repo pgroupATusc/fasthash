@@ -13,7 +13,7 @@ Hash table is a fundamental data structure that provides efficient data store an
 This directory contains the RTL source code for the FastHASH implementation.
 
 ### test
-This directory contains unit testbench for the RTL code.
+This directory contains unit-level testbench for the RTL code.
 
 ## Setting up the projects
 1. Create a new project using Xilinx Vivado and use Xilinx U250 FPGA as the targeted device. <br />
