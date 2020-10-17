@@ -15,7 +15,7 @@ This directory contains the RTL source code for the FastHASH implementation.
 ### test
 This directory contains unit-level testbench for the RTL code.
 
-## Setting up the projects
+## Setting Up the Project
 1. Create a new project using Xilinx Vivado and use Xilinx U250 FPGA as the targeted device. <br />
 2. Include project files in rtl folder. <br />
 3. Run synthesis and implementation flow. <br />
