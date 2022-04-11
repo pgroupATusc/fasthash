@@ -520,7 +520,7 @@ module Process_Engine #(
   // end data processing unit
   
   assign output_valid = ht_sr_out_valid[NUM_HASH_TABLES-1] && (ht_sr_out_opcode[NUM_HASH_TABLES-1] == 4'b0001);
-  assign val_out = ht_out_val[NUM_HASH_TABLES-1];
+  assign val_out = ht_sr_out_val[NUM_HASH_TABLES-1];
   assign rescode = ht_sr_out_rescode[NUM_HASH_TABLES-1];
 
   always_ff @ (posedge clock) begin
